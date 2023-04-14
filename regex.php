@@ -3,6 +3,7 @@
     $search = "17/02/2023 15:00";
     $search2 = "15:00 17/02/2023";
     $dtSearch = null;
+    
     try {
         // * Verificando se é  uma regex de data
         if (preg_match('/^([0-9]{2})\/([0-9]{2})\/([0-9]{4})$/', $search, $matches)) {
